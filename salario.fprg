@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lista02Exerc&#237;cio5"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 12:08:18 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjMwOjQxICI7MjE4MA=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjQ0OjE5ICI7MTsyMjk4"/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMjQ7IjEyOjA4OjE4ICI7MTsyMjk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="s, p" type="Real" array="False" size=""/>
+            <declare name="Novosalario" type="Real" array="False" size=""/>
+            <declare name="pp" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual &#233; seu salario?&quot;" newline="True"/>
+            <input variable="s"/>
+            <output expression="&quot;Qual seu percentual do salario?&quot;" newline="True"/>
+            <input variable="p"/>
+            <assign variable="pp" expression="p/100"/>
+            <assign variable="Novosalario" expression="s+s*pp"/>
+            <output expression="&quot;Seja bem vindo &quot;&amp;nome&amp;&quot;, seu novo salario &#233; de:&quot;&amp;novosalario" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

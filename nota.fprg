@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lista02Exerc&#237;cio8"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 12:11:30 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjE3OjM2ICI7MjE4OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjI5OjEwICI7MTsyMjky"/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMjQ7IjEyOjExOjMwICI7MTsyMjgy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual sua nota?&quot;" newline="True"/>
+            <input variable="nota"/>
+            <if expression="nota&gt;=7">
+                <then>
+                    <output expression="&quot;voc&#234; passou&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota&gt;=5">
+                        <then>
+                            <output expression="&quot;Est&#225; de recupera&#231;&#227;o!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Est&#225; reprovado!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

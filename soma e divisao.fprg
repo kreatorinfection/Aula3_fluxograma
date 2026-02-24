@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="soma e divisao"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 03:52:49 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMTk7IjAzOjQzOjE4ICI7MjE4OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMTk7IjAzOjUyOjQ5ICI7MTsyMzAx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <declare name="tr&#234;s" type="Real" array="False" size=""/>
+            <output expression="&quot;digite tres numeros e somarei eles e dividirei dps seguindo essa ordem: (a+b)/c&quot;" newline="True"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="tr&#234;s" expression="(a+b)/c"/>
+            <output expression="tr&#234;s &amp; &quot; o resultado &#233;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

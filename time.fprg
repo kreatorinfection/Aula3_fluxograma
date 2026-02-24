@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Lista02Exerc&#237;cio6"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 12:09:42 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjEwOjMzICI7MjE3OQ=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzEzOzIwMjYtMDItMTk7IjAzOjE3OjMyICI7MTsyMjkz"/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMjQ7IjEyOjA5OjQyICI7MTsyMjky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="time" type="String" array="False" size=""/>
+            <declare name="vitorias, empates" type="Integer" array="False" size=""/>
+            <declare name="pontos" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual seu time? Quantas vitorias e empates seu time tem?&quot;" newline="True"/>
+            <input variable="time"/>
+            <input variable="vitorias"/>
+            <input variable="empates"/>
+            <assign variable="Pontos" expression="vitorias*3+empates"/>
+            <output expression="&quot;O time &quot;&amp;time&amp;&quot; tem: &quot;&amp;pontos&amp;&quot; pontos&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

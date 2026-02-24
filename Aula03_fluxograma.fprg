@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Aula03_fluxograma"/>
+        <attribute name="authors" value="DEV"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-19 02:02:47 "/>
+        <attribute name="created" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMTk7IjAxOjQxOjMxICI7MjE4MA=="/>
+        <attribute name="edited" value="REVWO0RFVl9TTDAxXzA1OzIwMjYtMDItMTk7IjAyOjAyOjQ3ICI7MTsyMjkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1, N2, N3, N4" type="Integer" array="False" size=""/>
+            <declare name="Media" type="Real" array="False" size=""/>
+            <output expression="&quot;DIGITE AS NOTAS DO SEMESTRE&quot;" newline="True"/>
+            <input variable="N1"/>
+            <input variable="N2"/>
+            <input variable="N3"/>
+            <input variable="N4"/>
+            <assign variable="Media" expression="(N1+N2+N3+N4)/4"/>
+            <output expression="&quot;SUA MEDIA E&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;7">
+                <then>
+                    <output expression="&quot;PARABENS, VC PASSOU HAAHA&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
